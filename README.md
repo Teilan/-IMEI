@@ -25,9 +25,9 @@
 
 Настройте под себя файл test.env  
 Пример:  
-```DATABASE=Имя База данных(в конце .sqlite)```
-```IMEI_SANDBOX_TOKEN=ваш_токен_песочницы```
-```TELEGRAM_BOT_TOKEN=ваш_токен_бота```
+```DATABASE=Имя База данных(в конце .sqlite)```  
+```IMEI_SANDBOX_TOKEN=ваш_токен_песочницы```  
+```TELEGRAM_BOT_TOKEN=ваш_токен_бота```  
 
 ##Открываем файл main.py  
 

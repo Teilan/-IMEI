@@ -15,19 +15,19 @@
 ## Установка и запуск
 
 Перейдите в основную директорию:   
-**cd app**  
+```cd app``` 
 
 Создайте виртуальное окружение:  
-**python -m venv venv**
+```python -m venv venv*```
 
 Установите все нужные зависимости: 
-**pip install -r requirements.txt**
+```pip install -r requirements.txt```
 
 Настройте под себя файл test.env  
 Пример:  
-**DATABASE=Имя База данных(в конце .sqlite)
-IMEI_SANDBOX_TOKEN=ваш_токен_песочницы
-TELEGRAM_BOT_TOKEN=ваш_токен_бота**
+```DATABASE=Имя База данных(в конце .sqlite)```
+```IMEI_SANDBOX_TOKEN=ваш_токен_песочницы```
+```TELEGRAM_BOT_TOKEN=ваш_токен_бота```
 
 ##Открываем файл main.py  
 
@@ -38,7 +38,7 @@ TELEGRAM_BOT_TOKEN=ваш_токен_бота**
 ```python main.py```  
 
 Раскомментируйте строку:  
-asyncio.run(main()) <- для запуска Telegram-бота  
-uvicorn.run(app, host="0.0.0.0", port=8000) <- для запуска бэкенда  
+```asyncio.run(main())``` <- для запуска Telegram-бота  
+```uvicorn.run(app, host="0.0.0.0", port=8000)``` <- для запуска бэкенда  
 
 
